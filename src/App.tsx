@@ -66,7 +66,7 @@ export default function App() {
                         animate={{ opacity: 1 }} 
                         className="text-green-400"
                     >
-                        READY
+                        PRONTA
                     </motion.span>
                 )}
               </div>
