@@ -25,7 +25,7 @@ const TextParticle = ({ position, rotation, text }: { position: [number, number,
         outlineWidth={0.005}
         outlineColor="#ff003c"
       >
-        {text}
+        WAW
       </Text>
     </group>
   );
@@ -36,7 +36,7 @@ const HeartCloud = () => {
   const particles = useMemo(() => {
     const temp = [];
     const count = 250; // Optimized count
-    const text = "i love you";
+    const text = "Eu amo Você";
     
     for (let i = 0; i < count; i++) {
         const t = Math.random() * Math.PI * 2;
